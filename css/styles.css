@@ -1,0 +1,382 @@
+* {margin: 0;
+    padding: 0;}
+    
+    body{overflow-x: hidden;
+       
+   
+      }
+      .div{width: 100%;height: 50px; background-color: #03506f;}
+
+ .contact{width: 100%;
+   display: flex;
+   justify-content: space-around;
+   background-color: #a3ddcb;
+   align-items: center;
+    }
+    
+
+
+
+
+   .form img{height: 35px;padding: 10px 15px;
+  
+    }
+ 
+
+ .two{ 
+    
+   
+    
+    
+    
+    }
+
+
+    .two a{text-decoration: none;font-size:20px;
+        padding: 15px;
+        color: #000;
+    }
+    a:hover {border-bottom:2px solid #ff005c ;}
+
+  
+  /*  @media screen and (max-width:600px){
+     
+      .two a{flex-direction: column;}
+        }}*/
+   
+   
+
+
+      
+
+  /*setion1*/
+
+   #active{position: relative;height: 600px;
+      width: 100%;
+    
+    background:linear-gradient(#03506f,#a3ddcb);
+    
+    
+    }
+
+    .pont{position: absolute;
+       padding-top: 75px;
+       text-align: center;
+    
+   }
+    .pont .line{width: 300px;
+      height: 3px;
+      background-color: red;
+      margin:0 auto;}
+     
+    
+
+     .pont h1{color: #000;padding-bottom:20px ;
+        font-size: 35px;}
+
+     .pont p{font-size: 20px;
+        color: #000;padding: 30px 5px;}
+   
+
+      .pont .butn1{padding: 10px 10px;
+        background-color: #ff005c;
+       border-radius: 20px;
+       font-weight: bold;
+        font-size: 25px;}
+        
+      
+  
+
+    .pont .butn1 a{color:#e8eae6;
+        text-decoration: none;}
+        
+
+      .butn1:hover {background-color: #f0a500;
+        border: none;}
+
+        .sent{position: absolute;
+         width: 40%;
+         top: 40px;
+         right:40px;
+
+      }
+
+        .sent img{width: 100%;}
+
+       #active .img {position: absolute;
+         bottom: 0px;}
+    
+   
+
+    
+ .social{position: fixed;
+    padding: 15px;
+    list-style: none;
+    border-right: 4px solid #f0a500;
+    background-color: #a3ddcb;z-index:1 ;
+     top: 45%;}
+
+    .social li{padding: 8px 0; }
+
+    .fa-facebook-square{color: #4a47a3;}
+    .fa-twitter-square{color: #709fb0;}
+    .fa-youtube-play{color:red;}
+    .fa-instagram{color: #ff005c;}
+  
+  li:hover {border-bottom:3px solid #ff005c;}
+ 
+
+
+/*section2*/
+
+
+ #About{background-color: #eee;
+    width: 100%;
+ 
+ 
+    text-align: center;}
+
+   #About h1 {color: #000;padding-bottom:15px ;
+      font-size: 50px;}
+
+
+    #About .line1{width: 150px;
+      height: 3px;
+      background-color: #ff005c;
+      margin:0 auto;}
+
+
+    #About .pont1{padding-top: 40px;
+      text-align: center;}
+     
+      .pont1 p{font-size: 20px;
+         color: #000;padding:15px 5px;}
+
+
+     .pont1 .butn1{padding: 10px 10px;
+      background-color: #ff005c;
+     border-radius: 20px;
+     font-weight: bold;
+      font-size: 25px;}
+
+      .pont1 .butn1 a{color:#000;
+         text-decoration: none;}
+        
+         .butn1:hover{background-color: #f0a500;
+            border: none;}
+
+         
+            #About .img1{padding-top:50px;}
+  
+
+   /* @media screen and (max-width:650px){
+      .dawn {flex-direction: column;
+     }}*/
+    
+     /* section3*/
+     
+     #WAST{width: 100%;
+         
+          
+          background: linear-gradient(#03506f,#a3ddcb);
+          position: relative;
+         }
+
+         #WAST .waston{display: flex;justify-content: space-around;
+         }
+
+         .waston h1{color: #000;padding-bottom:20px ;
+            font-size: 35px;} 
+
+            .waston .line1{width: 300px;
+               height: 3px;
+               background-color: #ff005c;
+               }
+
+            .waston p{font-size: 20px;
+               color: #000;padding: 30px 5px;}
+
+            .ul1 li:hover {border:none;}
+
+
+         #WAST .sent2{flex-basis:25%;
+                     
+         
+         }
+         .sent2 img{width: 100%;}
+
+        #WAST .img{width: 100%;bottom:0%;}
+    
+
+
+     
+  
+
+
+
+
+
+
+
+
+   /*setion4*/
+   
+   
+     #oner{background-color: #eee;
+    width: 100%;text-align: center;}
+    /*
+    
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5))
+    ,url(../image/watch4.jpeg);
+    background-attachment: fixed;
+    background-size: cover;
+     text-align: center;
+    background-position: center;}*/
+
+
+    
+
+    #oner h1 {font-size: 50px;padding-top: 100px;
+    padding-bottom: 25px;
+    color: #000}
+
+
+ #oner hr{width: 300px;
+    height: 3px;
+    background-color: #ff005c;
+    margin: 0 auto;}
+
+
+ #oner .contenr{display: flex;
+    justify-content: space-around;
+    padding:50px 100px;}
+
+
+ #oner  .card1{padding: 15px;
+    
+    text-align: center;}
+
+    
+    .card1  h2{color: #000;}
+
+    .card1 p{color: #000; font-size: 18px;padding:15px 15px;}
+
+    .card1 .fa{color: red;}
+
+
+    
+
+    /* section5*/
+    #imeg{width: 100%;height: 800px;
+      
+
+
+       background: linear-gradient(#03506f,#a3ddcb);
+       }
+
+    #imeg  .mame{object-fit: cover;
+       display: flex;
+       justify-content:center;
+       transform: scale(0.7,1.8);
+       
+      }
+        
+
+                        
+
+      .mame img{width:250px;padding:15px 10px;}
+
+
+     #imeg .free{ width: 100%;padding:30px 10px;
+      }
+
+     .free h1{font-size: 35px;
+      color: #000}
+
+      .free p{font-size: 20px;
+      color: #000;padding: 41px;}
+
+        
+
+ 
+       #imeg .butn1{
+          padding:10px 10px;
+                  background-color: #ff005c;
+                  border-radius: 20px;
+                  font-weight: bold;
+                   font-size:7px;
+                  float: right;
+                  }
+
+           
+             
+      
+     /*footer*/
+
+
+
+
+    #footer{width: 100%;padding: 50px;background-color: #eee;}
+      
+
+    .srt{padding:30px 10px;
+       display: flex;justify-content: space-around;align-items: center;
+    }
+    .srt img{width: 200px;}
+
+   
+
+     h1{font-size: 35px;}
+     form{padding: 15px;}
+     input{padding: 10px; border: 3px solid #709fb0;}
+     button{padding: 5px; border: 3px solid #ff005c;}
+
+       .div1{width: 100%; height:50px;background-color: #03506f;}
+       .div2{width: 100%; height: 50px;background-color: #a3ddcb;}
+       
+
+       @media screen and (max-width:650px){
+         .pont {width: 100%;z-index: 1;
+        }}
+       
+
+       @media screen and (max-width: 750px){
+         .contenr{flex-direction: column;
+        }}
+     
+
+       @media screen and (max-width: 650px){#WAST .waston{flex-direction: column;}
+      
+          .mame img{width: 40%;}
+          
+            .srt{flex-direction: column;}}
+        
+        
+
+
+      
+
+  
+    
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
